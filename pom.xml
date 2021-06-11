@@ -10,7 +10,7 @@
 
     <groupId>com.facebook.presto</groupId>
     <artifactId>presto-root</artifactId>
-    <version>0.256-SNAPSHOT</version>
+    <version>0.256-CBP-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>presto-root</name>
@@ -1799,7 +1799,7 @@
                 <version>0.1.2</version>
                 <exclusions>
                     <exclusion>
-                        <groupId> org.slf4j</groupId>
+                        <groupId>org.slf4j</groupId>
                         <artifactId>slf4j-api</artifactId>
                     </exclusion>
                     <exclusion>
